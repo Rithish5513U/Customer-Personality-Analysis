@@ -1,1 +1,9 @@
 .jupyter
+data/.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
+dist
+build
+__pycache__
+logs
+myproject.egg-info
+myenv
