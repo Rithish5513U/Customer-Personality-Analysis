@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Customer Segmentation using K-Means Clustering
 
 This project aims to segment a customer base into distinct groups based on various features, such as demographics and purchasing behavior, to help businesses personalize marketing strategies and improve customer engagement.
@@ -72,3 +73,6 @@ The dataset used in this project contains customer data, including demographic i
 ## Conclusion
 
 This customer segmentation project provides a foundation for businesses to leverage machine learning techniques for gaining deeper insights into their customers. By using clustering methods, companies can improve their targeting and marketing efforts, ultimately driving higher engagement and better customer satisfaction.
+=======
+# Customer Segmentation
+>>>>>>> 981c13e3125701c824e5d1527b8f7effebc16e06
