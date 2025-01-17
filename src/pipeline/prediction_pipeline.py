@@ -66,7 +66,6 @@ class InputData:
             }
 
             convert_dict = {
-                'Year_Birth': int,
                 'Education': str,
                 'Marital_Status': str,
                 'Income': float,
@@ -84,7 +83,7 @@ class InputData:
             df = pd.DataFrame(input_dict)
 
             df = df.astype(convert_dict)
-            df['Education']=df['Education'].replace({'Basic':0,'2n Cycle':0,'Graduation':1,'Master':1,'PhD':1})
+            df['Education']=df['Education'].replace({'Basic':1,'2n Cycle':1,'Graduation':0,'Master':0,'PhD':0})
             df['Marital_Status']=df['Marital_Status'].replace({'Divorced':0,'Single':0,'Married':1,'Together':1,'Absurd':0,'Widow':0,'YOLO':0})
             df['Expenses']=df['Wines']+df['Fruits']+df['Fish']+df['Gold']+df['Meat']+df['Sweets']
             

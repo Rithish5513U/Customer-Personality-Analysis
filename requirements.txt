@@ -1,8 +1,7 @@
 pandas
 numpy
-mlflow
 matplotlib
 seaborn
-requests
 scikit-learn
+streamlit
 -e .
