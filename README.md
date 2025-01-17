@@ -64,9 +64,9 @@ The dataset used in this project contains customer data, including demographic i
     pip install -r requirements.txt
     ```
 
-3. Run the Jupyter Notebook to see the analysis and results:
+3. Run the Python file to predict the customer segment:
     ```bash
-    jupyter notebook customer_segmentation.ipynb
+    python app.py
     ```
 
 ## Conclusion
