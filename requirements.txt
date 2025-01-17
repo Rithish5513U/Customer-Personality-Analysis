@@ -2,5 +2,7 @@ pandas
 numpy
 mlflow
 matplotlib
+seaborn
 requests
+scikit-learn
 -e .
